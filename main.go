@@ -5,12 +5,6 @@ import (
 	"time"
 )
 
-func f(from string) {
-	for i := range 3 {
-		fmt.Println(from, ":", i)
-	}
-}
-
 func main() {
 
 	// TODO example :No Goroutine (Sequential) vs  Goroutine
@@ -23,7 +17,7 @@ func main() {
 
 	// *--------------------------------------------------------
 
-	// TODO example :2 Goroutine
+	// TODO example :2 Goroutine with chanel
 	// ch := make(chan int)
 
 	// go producer(ch) //  1 Goroutine
